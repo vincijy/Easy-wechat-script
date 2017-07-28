@@ -9,7 +9,7 @@ def speak(text):
     speaker = win32com.client.Dispatch("SAPI.SpVoice")
     speaker.Speak(text)
 
-def note():   
+def note():
     @itchat.msg_register(SHARING)
     def inform(msg):
         text=msg['Text']
