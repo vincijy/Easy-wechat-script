@@ -5,3 +5,6 @@
 # requirements
 . 个人微信号接口：itchat
 . 文字转语音借助微软的语音接口。需要安装pywin32来帮助我们完成这一个底层的交互。
+
+# 注意事项
+见[这里](http://www.zhuojiayuan.com/?p=1295)
