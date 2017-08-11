@@ -13,7 +13,7 @@ def note():
     @itchat.msg_register(SHARING)
     def inform(msg):
         text=msg['Text']
-        text = "老板老板" + text
+        text = "老板老板微信" + text
         speak(text=text)
 
     @itchat.msg_register(TEXT)
